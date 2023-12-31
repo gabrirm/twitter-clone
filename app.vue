@@ -10,13 +10,15 @@
             <div class="sticky top-0"><SidebarLeft /></div>
           </div>
           <!-- Main content -->
-          <main class="col-span-12 md:col-span-8 xl:col-span-6 bg-red-500">
-            <h1>asd</h1>
+          <main class="col-span-12 md:col-span-8 xl:col-span-6">
+            <router-view />
           </main>
 
           <!-- Right sidebar -->
-          <div class="hidden md:block md:col-span-3 xl:col-span-4 bg-blue-500">
-            <div class="sticky top-0"><h1>rightsidebar</h1></div>
+          <div class="hidden md:block md:col-span-3 xl:col-span-4">
+            <div class="sticky top-0">
+              <SidebarRight />
+            </div>
           </div>
         </div>
       </div>
