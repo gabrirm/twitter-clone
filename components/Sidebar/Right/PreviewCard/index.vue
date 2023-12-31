@@ -18,7 +18,6 @@
 </template>
 
 <script setup>
-const { twitterBorderColor } = useTailwindConfig();
 const props = defineProps({
   title: {
     type: String,

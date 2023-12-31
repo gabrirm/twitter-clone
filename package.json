@@ -15,11 +15,15 @@
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.9.0",
     "postcss": "^8.4.32",
+    "prisma": "^5.7.1",
     "tailwindcss": "^3.4.0",
     "vue": "^3.4.3",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@heroicons/vue": "^1.0.6"
+    "@heroicons/vue": "^1.0.6",
+    "@prisma/client": "^5.7.1",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2"
   }
 }
